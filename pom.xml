@@ -4,7 +4,7 @@
 
 	<groupId>com.prashant</groupId>
 	<artifactId>ps-pet-clinic</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.2</version>
 	<modules>
 		<module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
@@ -43,6 +43,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -50,7 +51,7 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/PrashantSahu/ps-pet-clinic.git</developerConnection>
-	  <tag>HEAD</tag>
+	  <tag>ps-pet-clinic-0.0.2</tag>
   </scm>
 
 
