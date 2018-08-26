@@ -3,7 +3,7 @@ package com.prashant.pspetclinic.model;
 /**
  * Created by prsahu on 8/26/18.
  */
-public class Person {
+public class Person extends BaseEntity{
 
     private String firstName;
     private String lastName;
