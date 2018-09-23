@@ -1,11 +1,11 @@
 package com.prashant.pspetclinic.services.map;
 
 import com.prashant.pspetclinic.model.Vet;
-import com.prashant.pspetclinic.services.CrudService;
+import com.prashant.pspetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
